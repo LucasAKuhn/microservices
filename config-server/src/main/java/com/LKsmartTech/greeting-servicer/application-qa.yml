@@ -1,0 +1,14 @@
+application:
+  yml:
+spring:
+  application:
+    name: greeting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+greeting-service:
+  greeting: "Ol�"
+  default-value: "Mundo"
